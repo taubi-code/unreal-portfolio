@@ -1,0 +1,30 @@
+# .gitignore — Unreal Engine 5
+
+# Dossiers générés automatiquement
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.idea/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.suo
+*.xcworkspace
+*.xcodeproj
+
+# Fichiers de config locaux
+*.ini
+!DefaultEngine.ini
+!DefaultGame.ini
+!DefaultInput.ini
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
